@@ -1,5 +1,6 @@
 # Precovid
-<img src="https://github.com/matiasrodlo/precovid/assets/52969662/2385514c-0358-4e93-af26-120644e9c94f"  width="300"/>
+
+![Screenshot_4](https://github.com/matiasrodlo/precovid/assets/52969662/b5bd6790-d36e-4a22-8fd8-034e14aab6e8)
 
 <br>
 <br>
