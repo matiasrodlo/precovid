@@ -13,10 +13,10 @@ This website has been designed to assist citizens throughout Latin America in se
 
 To start the self-assessment, users must enter their personal information and location. Once this information is provided, the platform will proceed to ask a series of questions to determine the possible presence of a COVID-19 case.
 
-**Project Background:**
-
-This project was developed during my third semester of Business Administration, while simultaneously participating in Startup School, a graduation pathway focused on entrepreneurship and innovation at the School of Engineering at the Adolfo Ibáñez University.
-
 Our team consists of doctors, engineers, and journalists. Despite most of us having never met in person, we have come together with the purpose of saving lives.
 
 **GEOEDUCA:** Javiera Gonzalez, Valentina Cáceres, Francisco Concha, Francisco Vergara. **CONMAPAS:** Jorge Ulloa, Salvador Muñoz, Gino Escobar. **AWAKELABS:** Gustavo Rodriguez, Ricardo Hermosilla. **UAI STARTUP SCHOOL:** Alfredo Osorio, Matías Donoso, Raimundo Valdivia. **OTROS COLABORADORES:** Claudio Moreno, Alberto Roa, Iván González, Matías Lobos, Paula Mardones, Carla Mardones, Leonardo Ramos, Matías Quinteros, Kurt Müller, Dino Cisterna, Daniela Bustos, Javiera Rosales, Evelyn Neira, Cristian Gonzalez, Daniela Bustos, Emiliano Araneda...
+
+**Context:**
+
+This project was developed during my third semester of Business Administration, while simultaneously participating in Startup School, a graduation pathway focused on entrepreneurship and innovation at the School of Engineering at the Adolfo Ibáñez University.
