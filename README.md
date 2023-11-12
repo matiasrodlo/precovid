@@ -1,8 +1,7 @@
-# Precovid
+# precovid
 
 ![Screenshot_4](https://github.com/matiasrodlo/precovid/assets/52969662/b5bd6790-d36e-4a22-8fd8-034e14aab6e8)
 
-<br>
 <br>
 Nuestra principal misión fue contribuir al alivio de la carga en las líneas de atención médica, al mismo tiempo que proporcionamos datos y recomendaciones basadas en la sintomatología de cada consultante.
 
