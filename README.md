@@ -11,7 +11,6 @@ Our team includes doctors, engineers, and journalists. Although most of us had n
 **GEOEDUCA:** Javiera Gonzalez, Valentina Cáceres, Francisco Concha, Francisco Vergara. **CONMAPAS:** Jorge Ulloa, Salvador Muñoz, Gino Escobar. **AWAKELABS:** Gustavo Rodriguez, Ricardo Hermosilla. **UAI STARTUP SCHOOL:** Alfredo Osorio, Matías Donoso, Raimundo Valdivia. **OTROS COLABORADORES:** Claudio Moreno, Alberto Roa, Iván González, Matías Lobos, Paula Mardones, Carla Mardones, Leonardo Ramos, Matías Quinteros, Kurt Müller, Dino Cisterna, Daniela Bustos, Javiera Rosales, Evelyn Neira, Cristian Gonzalez, Daniela Bustos, Emiliano Araneda...
 
 ## Table of Contents
-- [Description](#description)
 - [Requirements](#requirements)
 - [Features](#features)
 - [Quick Start](#quick-start)
@@ -25,11 +24,6 @@ Our team includes doctors, engineers, and journalists. Although most of us had n
 <!--
   Main project README. Provides a high-level overview, setup instructions, and developer notes.
 -->
-<p>
-  <a href="https://noticias.uai.cl/precovid-org-pagina-tiene-como-objetivo-descongestionar-lineas-de-atencion-medica/">
-    <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/52969662/281578540-b5bd6790-d36e-4a22-8fd8-034e14aab6e8.png" alt="Precovid logo">
-  </a>
-</p>
 
 ## Requirements
 - PHP 7.2 or higher
