@@ -2,11 +2,23 @@
 
 ## Table of Contents
 - [Description](#description)
+  - [Context](#context)
 - [Requirements](#requirements)
 - [Features](#features)
 - [Quick Start](#quick-start)
+  - [Requirements](#requirements-1)
+  - [Run locally](#run-locally)
+  - [Directory Structure](#directory-structure-1)
 - [Directory Structure](#directory-structure)
 - [How It Works](#how-it-works)
+  - [User Flow](#user-flow)
+  - [COVID-19 Symptom Detection Logic](#covid-19-symptom-detection-logic)
+    - [Primary Symptoms](#primary-symptoms)
+    - [Contact History](#contact-history)
+    - [Secondary Symptoms](#secondary-symptoms)
+    - [Result Determination](#result-determination)
+    - [Differential Diagnosis](#differential-diagnosis)
+  - [Technical Details](#technical-details)
 - [Privacy & Data Handling](#privacy--data-handling)
 - [Developer Notes](#developer-notes)
 - [Troubleshooting](#troubleshooting)
@@ -110,7 +122,34 @@ README.md
    - Upon submission, the app calculates a risk score and redirects the user to a result page (positive/negative) with recommendations.
    - The user can share their result via WhatsApp and is encouraged to re-evaluate after 12 hours if symptoms persist.
 
-2. **Technical Details:**
+2. **COVID-19 Symptom Detection Logic:**
+   The application uses a sophisticated weighted scoring system based on early COVID-19 research and clinical observations. The detection process involves:
+
+   a) **Primary Symptoms** (20 points each):
+   - Shortness of breath (key respiratory symptom)
+   - Fever (common in COVID-19 cases)
+   - Cough (persistent dry cough is typical)
+   
+   b) **Contact History** (30 points):
+   - Contact with a confirmed COVID-19 case
+   
+   c) **Secondary Symptoms** (12.5 points each):
+   - Nasal mucus (less common in COVID-19)
+   - Muscle pain (common but not specific)
+   - Gastrointestinal symptoms (less common in COVID-19)
+   - Duration of symptoms (longer symptoms may indicate COVID-19)
+
+   d) **Result Determination:**
+   A positive result is triggered if either:
+   - The total probability score is ≥ 50% (multiple symptoms present)
+   - All three primary symptoms are present (shortness of breath, fever, cough)
+
+   e) **Differential Diagnosis:**
+   - Some symptoms have negative weights when absent to reduce false positives
+   - This helps differentiate COVID-19 from other respiratory conditions
+   - The system prioritizes identifying potential cases while minimizing false negatives
+
+3. **Technical Details:**
    - The main logic is in `app/index.php`.
    - Form data is sanitized and sent to an external endpoint (`precovid.conmapas.cl/nuevaTest`) for logging.
    - The risk score is calculated based on symptom answers (see code for details).

@@ -90,20 +90,38 @@ if(isset($_POST['formulario']) && empty($_POST['formulario'])) {
     $res = curl_exec($curl_object); // Execute the request (response is not used)
 
     // --- Risk Calculation -------------------------------------------------------------------
-    // Calculate probability of COVID-19 based on user answers.
-    // Each symptom contributes a weighted score to the total probability.
+    // COVID-19 Symptom Detection Logic
+    // This section implements a weighted scoring system based on early COVID-19 research
+    // and clinical observations. The system uses two main criteria:
+    // 1. A probability threshold (50%) based on weighted symptoms
+    // 2. Presence of the three main symptoms (shortness of breath, fever, cough)
+    
+    // Initialize probability score
     $prob = 0;
-    $prob += ($datos['p1'] === "si") ? 20 : 0;         // Shortness of breath
-    $prob += ($datos['p2'] === "si") ? 20 : 0;         // Fever
-    $prob += ($datos['p3'] === "si") ? 20 : 0;         // Cough
+    
+    // Primary Symptoms (20 points each)
+    // These are the most common and significant symptoms of COVID-19
+    // Having all three automatically triggers a positive result
+    $prob += ($datos['p1'] === "si") ? 20 : 0;         // Shortness of breath - Key respiratory symptom
+    $prob += ($datos['p2'] === "si") ? 20 : 0;         // Fever - Common in COVID-19 cases
+    $prob += ($datos['p3'] === "si") ? 20 : 0;         // Cough - Persistent dry cough is typical
+    
+    // Contact History (30 points)
+    // Highest weight as contact with confirmed cases is a major risk factor
     $prob += ($datos['p4'] === "si") ? 30 : 0;         // Contact with positive case
-    $prob += ($datos['p5'] === "si") ? 12.5 : -12.5;   // Nasal mucus (negative weight if 'no')
-    $prob += ($datos['p6'] === "si") ? 12.5 : 0;       // Muscle pain
-    $prob += ($datos['p7'] === "si") ? 12.5 : -12.5;   // Gastrointestinal (negative weight if 'no')
-    $prob += ($datos['p8'] === "si") ? 12.5 : 0;       // Many days with symptoms
+    
+    // Secondary Symptoms (12.5 points each)
+    // These symptoms help differentiate COVID-19 from other conditions
+    // Some have negative weights when absent to reduce false positives
+    $prob += ($datos['p5'] === "si") ? 12.5 : -12.5;   // Nasal mucus - Less common in COVID-19
+    $prob += ($datos['p6'] === "si") ? 12.5 : 0;       // Muscle pain - Common but not specific
+    $prob += ($datos['p7'] === "si") ? 12.5 : -12.5;   // Gastrointestinal - Less common in COVID-19
+    $prob += ($datos['p8'] === "si") ? 12.5 : 0;       // Duration - Longer symptoms may indicate COVID-19
 
-    // --- Redirect to Result Page -----------------------------------------------------------
-    // If probability is high or the three main symptoms are present, show positive result.
+    // --- Result Determination ---------------------------------------------------------------
+    // Two criteria for positive result:
+    // 1. Probability score >= 50% (multiple symptoms present)
+    // 2. All three primary symptoms present (shortness of breath, fever, cough)
     if($prob >= 50 || ($datos['p1'] === "si" && $datos['p2'] === "si" && $datos['p3'] === "si")) {
         // High risk: redirect to positive result
         header("Location: " . RUTA . "/resultados/positivo");
