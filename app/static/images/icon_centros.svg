@@ -1,0 +1,20 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="160" height="160">
+<rect width="160" height="160" rx="8" fill="#0145FF"/>
+</mask>
+<g mask="url(#mask0)">
+<rect width="160" height="160" rx="8" fill="white"/>
+</g>
+<rect x="39" y="50" width="82" height="69" fill="#D9D9D9"/>
+<rect x="50" y="39" width="60" height="80" fill="#F2F2F2"/>
+<rect x="71" y="75" width="6" height="12" fill="#D9D9D9"/>
+<rect x="59" y="75" width="6" height="12" fill="#D9D9D9"/>
+<rect x="95" y="75" width="6" height="12" fill="#D9D9D9"/>
+<rect x="59" y="91" width="6" height="12" fill="#D9D9D9"/>
+<rect x="83" y="91" width="6" height="12" fill="#D9D9D9"/>
+<rect x="95" y="91" width="6" height="12" fill="#D9D9D9"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M83.0001 45H77.0001V54H68L68 60H77.0001V69H83.0001V60H92V54H83.0001V45Z" fill="#E34B48"/>
+<rect x="61" y="109" width="40" height="10" fill="#BFBFBF"/>
+<circle cx="80.0005" cy="80" r="62" stroke="#E34B48" stroke-width="12"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M35.9991 124L123.999 36.0001L132.484 44.4854L44.4844 132.485L35.9991 124Z" fill="#E34B48"/>
+</svg>

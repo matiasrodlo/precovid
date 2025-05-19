@@ -1,0 +1,13 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="160" height="160" rx="8" fill="white"/>
+<circle cx="79.5" cy="65.5" r="53.5" fill="black"/>
+<path d="M122 74C122 49.6995 105.882 30 86 30C66.1177 30 50 49.6995 50 74V122H98C111.255 122 122 111.255 122 98V74Z" fill="#F89F51"/>
+<path d="M68 82H122V98C122 111.255 111.255 122 98 122H92C78.7452 122 68 111.255 68 98V82Z" fill="#F2F2F2"/>
+<path d="M79.75 46H126L111 30L78.5 20L46 50.5V82H57V66.5H59.25C64.9109 66.5 69.5 61.9109 69.5 56.25C69.5 50.5891 74.0891 46 79.75 46Z" fill="black"/>
+<rect x="50" y="82" width="20" height="4" fill="#F2F2F2"/>
+<rect x="50" y="101" width="23" height="4" fill="#F2F2F2"/>
+<path d="M41 77C41 73.6863 43.6863 71 47 71C50.3137 71 53 73.6863 53 77V91H49C44.5817 91 41 87.4183 41 83V77Z" fill="#F89F51"/>
+<path d="M50 122H96V140H50V122Z" fill="#F89F51"/>
+<circle cx="80" cy="80" r="62" stroke="#E34B48" stroke-width="12"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M35.9991 124L123.999 36.0001L132.484 44.4854L44.4844 132.485L35.9991 124Z" fill="#E34B48"/>
+</svg>
