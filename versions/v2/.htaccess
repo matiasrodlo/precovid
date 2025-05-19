@@ -1,9 +1,0 @@
-
-RewriteOptions inherit
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?ruta=$1 [L,QSA]
-RewriteCond %{HTTP_HOST} ^precovid\.cl$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.precovid\.cl$
-RewriteRule ^/?$ "https\:\/\/precovid\.org\/" [R=301,L]
