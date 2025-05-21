@@ -1,11 +1,12 @@
 # Precovid
+
+The website was created to support citizens across Latin America in self-assessing potential COVID-19 symptoms and accessing up-to-date information and personalized guidance based on their health status. I developed this project during my third semester of Commercial Engineering, while also participating in Startup School—an entrepreneurship and innovation track at the School of Engineering, Adolfo Ibáñez University.
+
 ![image](https://github.com/user-attachments/assets/4e8c88aa-10b9-4553-ae8b-047a549bcfc0)
 
 <!--
   Project mission, context, and team credits.
 -->
-The website was created to support citizens across Latin America in self-assessing potential COVID-19 symptoms and accessing up-to-date information and personalized guidance based on their health status. I developed this project during my third semester of Commercial Engineering, while also participating in Startup School—an entrepreneurship and innovation track at the School of Engineering, Adolfo Ibáñez University.
-
 Our team includes doctors, engineers, and journalists. Although most of us had never met in person, we came together with a shared purpose: to save lives.
 
 **GEOEDUCA:** Javiera Gonzalez, Valentina Cáceres, Francisco Concha, Francisco Vergara. **CONMAPAS:** Jorge Ulloa, Salvador Muñoz, Gino Escobar. **AWAKELABS:** Gustavo Rodriguez, Ricardo Hermosilla. **UAI STARTUP SCHOOL:** Alfredo Osorio, Matías Donoso, Raimundo Valdivia. **OTROS COLABORADORES:** Claudio Moreno, Alberto Roa, Iván González, Matías Lobos, Paula Mardones, Carla Mardones, Leonardo Ramos, Matías Quinteros, Kurt Müller, Dino Cisterna, Daniela Bustos, Javiera Rosales, Evelyn Neira, Cristian Gonzalez, Daniela Bustos, Emiliano Araneda...
