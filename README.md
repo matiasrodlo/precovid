@@ -6,11 +6,6 @@ A symptom-based screening tool for COVID-19 risk assessment, developed to suppor
 
 Our team includes doctors, engineers, and journalists. Although most of us had never met in person, we came together with a shared purpose: to save lives.
 
-**GEOEDUCA:** Javiera Gonzalez, Valentina Cáceres, Francisco Concha, Francisco Vergara  
-**AWAKELABS:** Gustavo Rodriguez, Ricardo Hermosilla  
-**UAI STARTUP SCHOOL:** Alfredo Osorio, Matías Donoso, Raimundo Valdivia  
-**OTROS COLABORADORES:** Claudio Moreno, Alberto Roa, Iván González, Matías Lobos, Paula Mardones, Carla Mardones, Leonardo Ramos, Matías Quinteros, Kurt Müller, Dino Cisterna, Daniela Bustos, Javiera Rosales, Evelyn Neira, Cristian Gonzalez, Emiliano Araneda...
-
 ## Quick Start
 
 ```sh
@@ -52,6 +47,13 @@ APP_ENV=development
 RUTA=http://localhost:8000
 CSRF_SECRET=your_secret_key
 ```
+
+## Team
+
+**GEOEDUCA:** Javiera Gonzalez, Valentina Cáceres, Francisco Concha, Francisco Vergara  
+**AWAKELABS:** Gustavo Rodriguez, Ricardo Hermosilla  
+**UAI STARTUP SCHOOL:** Alfredo Osorio, Matías Donoso, Raimundo Valdivia  
+**OTROS COLABORADORES:** Claudio Moreno, Alberto Roa, Iván González, Matías Lobos, Paula Mardones, Carla Mardones, Leonardo Ramos, Matías Quinteros, Kurt Müller, Dino Cisterna, Daniela Bustos, Javiera Rosales, Evelyn Neira, Cristian Gonzalez, Emiliano Araneda...
 
 ## Privacy
 
