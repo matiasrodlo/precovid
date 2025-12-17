@@ -1,0 +1,7 @@
+# PHP requirements for Precovid
+php >=7.2
+# Required PHP extensions
+curl
+json
+mbstring
+# Web server (Apache, Nginx, or PHP built-in server) 

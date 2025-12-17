@@ -1,0 +1,26 @@
+# MacOS resource forks
+._*
+.DS_Store
+
+# OS files
+Thumbs.db
+
+# PHPStorm/VSCode/IDE files
+.idea/
+.vscode/
+*.sublime*
+
+# Composer (if used)
+vendor/
+composer.lock
+
+# Logs
+*.log
+logs/
+rate_limit.json
+
+# Node (if used for assets)
+node_modules/
+
+# Environment files
+.env 
